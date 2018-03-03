@@ -1,0 +1,50 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~font-awesome-4.7.0/scss/font-awesome.scss';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.label-error{
+  font-size: 12px;
+  color: rgba(255, 0, 0, 0.69);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+thead tr th{
+  color: #5b5b5b;
+}
+
+thead{
+  background: whitesmoke;
+}
+
+tbody tr th{
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.pr-25{
+  padding-right: 25px
+}
+
+.color-create-button{
+  color: #23a345;
+}
+
+.single-row{
+  cursor: pointer;
+}
+
+.single-row:hover{
+  background: #f8f8f8;
+}
